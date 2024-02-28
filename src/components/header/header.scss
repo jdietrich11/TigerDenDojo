@@ -1,0 +1,25 @@
+.headerContainer {
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+
+  .headerSection1 {
+    margin: auto;
+
+    .home {
+      font-family: "stoke";
+      text-transform: uppercase;
+      text-decoration: none;
+      color: black;
+      font-size: 3.5rem;
+      font-weight: 700;
+    }
+  }
+
+  .headerSection2 {
+    margin: auto;
+    margin-right: 0;
+    width: 1rem;
+  }
+}
