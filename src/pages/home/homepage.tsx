@@ -5,7 +5,7 @@ import "./homepage.scss";
 const Homepage: React.FC = () => {
   return (
     <>
-      <div>Hello World</div>
+      <div>Hello fucker</div>
     </>
   );
 };
