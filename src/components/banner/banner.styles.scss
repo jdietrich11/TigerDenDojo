@@ -1,0 +1,47 @@
+.bannerContainer {
+  width: 100%;
+  height: 45rem;
+  background-color: #f67118;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .textContainer {
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+
+    .title {
+      color: white;
+      font-size: 5rem;
+      font-family: "Patua One", serif;
+      letter-spacing: 0.75rem;
+    }
+    .subtitle {
+      color: white;
+      font-family: "Patua One";
+      font-size: 3.5rem;
+      transform: skew(-15deg, 0);
+      font-weight: 500;
+      letter-spacing: 0.5rem;
+    }
+    .subtitle2Container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4rem;
+
+      .subtitle2 {
+        font-size: 2.75rem;
+        font-family: "Open Sans", sans-serif;
+        text-transform: capitalize;
+      }
+
+      li:nth-child(1) {
+        list-style-type: none;
+      }
+    }
+  }
+}
