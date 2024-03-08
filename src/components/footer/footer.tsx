@@ -1,4 +1,7 @@
 import React from "react";
+import IcomoonReact, { iconList } from "icomoon-react";
+
+import iconSet from "../../selection.json";
 
 import "./footer.scss";
 
@@ -11,16 +14,47 @@ const Footer: React.FC = () => {
       </div>
       <div className="footerBottomContainer">
         <div className="footerBottomSection">
-          <div>phone number</div>
-          <div>801-808-4182</div>
+          <div className="sectionTitle">phone number</div>
+          <a className="link" href="tel:8018084182">
+            801-808-4182
+          </a>
         </div>
         <div className="footerBottomMiddleSection">
-          <div>email</div>
-          <div>Instagram</div>
-          <div>Facebook</div>
+          <a href="mailto:tigerdendojo.karate@gmail.com">
+            <IcomoonReact
+              iconSet={iconSet}
+              color="white"
+              size={40}
+              icon="mail"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/tigerden.dojo/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <IcomoonReact
+              iconSet={iconSet}
+              color="white"
+              size={30}
+              icon="instagram"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/people/Tiger-Den-Dojo/100094609324806/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <IcomoonReact
+              iconSet={iconSet}
+              color="white"
+              size={30}
+              icon="facebook2"
+            />
+          </a>
         </div>
         <div className="footerBottomSection">
-          <div>email</div>
+          <div className="sectionTitle">email</div>
           <div>tigerdendojo.karate@gmail.com</div>
         </div>
       </div>

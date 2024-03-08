@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   color: white;
+  padding: 2rem;
 
   .footerTopContainer {
     display: flex;
@@ -16,23 +17,46 @@
     text-align: center;
     border-bottom: 1px solid black;
     width: 80rem;
+    padding: 2rem;
+
     .footerCompanyName {
       font-size: 2rem;
       font-family: $primary-font;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 2rem;
     }
   }
 
   .footerBottomContainer {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     width: 80rem;
+    height: 8rem;
 
     .footerBottomSection {
+      text-align: center;
+      font-size: 1.2rem;
+
+      .sectionTitle {
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+
+      .link {
+        text-decoration: none;
+        color: white;
+      }
     }
     .footerBottomMiddleSection {
       display: flex;
       flex-direction: row;
+      justify-content: center;
+      align-items: center;
       gap: 3rem;
+      width: 20rem;
     }
   }
 }
