@@ -1,7 +1,9 @@
+@import "../../assets/styleVariables.scss";
+
 .bannerContainer {
   width: 100%;
   height: 45rem;
-  background-color: #f67118;
+  background-color: $primary-color;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,12 +18,12 @@
     .title {
       color: white;
       font-size: 5rem;
-      font-family: "Patua One", serif;
+      font-family: $primary-font, serif;
       letter-spacing: 0.75rem;
     }
     .subtitle {
       color: white;
-      font-family: "Patua One";
+      font-family: $primary-font;
       font-size: 3.5rem;
       transform: skew(-15deg, 0);
       font-weight: 500;
@@ -35,7 +37,7 @@
 
       .subtitle2 {
         font-size: 2.75rem;
-        font-family: "Open Sans", sans-serif;
+        font-family: $tertiary-font, sans-serif;
         text-transform: capitalize;
       }
 

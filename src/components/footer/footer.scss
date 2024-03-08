@@ -1,0 +1,38 @@
+@import "../../assets/styleVariables.scss";
+
+.footerContainer {
+  background-color: $primary-color;
+  margin-bottom: 0;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  .footerTopContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 80rem;
+    .footerCompanyName {
+      font-size: 2rem;
+      font-family: $primary-font;
+    }
+  }
+
+  .footerBottomContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 80rem;
+
+    .footerBottomSection {
+    }
+    .footerBottomMiddleSection {
+      display: flex;
+      flex-direction: row;
+      gap: 3rem;
+    }
+  }
+}
