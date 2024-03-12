@@ -3,6 +3,8 @@
 .headerContainer {
   display: flex;
   flex-direction: column;
+  max-width: 100rem;
+  margin: auto;
 
   .headerSection1 {
     border-bottom: 0.1rem solid rgba(87, 87, 87, 0.33);
