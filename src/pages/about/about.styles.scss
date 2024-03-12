@@ -1,0 +1,45 @@
+@import "../../assets/styleVariables.scss";
+
+.featureContainer {
+  max-width: 100rem;
+  margin: auto;
+  margin-bottom: 3rem;
+  .featureHeading {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  .featureSubSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5%;
+    .featureDescription {
+      text-align: center;
+      font-size: 2rem;
+      width: 45%;
+    }
+    .featureImg {
+      width: 45%;
+      border-radius: 12%;
+      box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.2);
+      filter: saturate(112%);
+    }
+  }
+}
+
+.FAQBanner {
+  max-width: 80rem;
+  background-color: $primary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 12rem;
+}
