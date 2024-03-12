@@ -1,0 +1,79 @@
+.WeAreContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+
+  .WeAreStatementContainer {
+    width: 30rem;
+    margin-right: 4rem;
+
+    .WeAreStatementHeading {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 900;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .WeAreStatement {
+      font-size: 1.4rem;
+      line-height: 2rem;
+    }
+  }
+}
+.WeAreImageContainer {
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .WeAreImage {
+    width: 38rem;
+  }
+}
+.MissionStatementContainer {
+  height: 32rem;
+  max-width: 100rem;
+  margin: auto;
+  background-image: url("../../assets/TigerImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .MissionStatementLinearGrade {
+    height: 100%;
+    backdrop-filter: brightness(50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    .MissionStatementHeading {
+      text-transform: uppercase;
+      font-size: 3rem;
+      margin-bottom: 3rem;
+      filter: saturate(150%);
+    }
+    .MissionStatement {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      width: 75%;
+      filter: saturate(150%);
+    }
+  }
+}
+.GalleryContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 100rem;
+  margin: auto;
+}

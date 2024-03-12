@@ -1,0 +1,16 @@
+.GalleryCardContainer {
+  height: 25rem;
+  width: 22rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  .GalleryCardImage {
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
