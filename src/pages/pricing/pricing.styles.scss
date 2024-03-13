@@ -9,11 +9,42 @@
     margin-bottom: 1.2rem;
   }
   .sectionContent {
-    margin-left: 1rem;
-    font-size: 1.5rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+    line-height: 3rem;
   }
 }
 
 .feesContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  padding: 1rem;
+
+  .feeNumber {
+    margin-right: 2rem;
+  }
+  .feeName {
+    font-weight: 800;
+    width: 40rem;
+  }
+  .feeDescription {
+    width: 50rem;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.bold {
+  font-size: 1.6rem;
+  font-weight: 800;
+  font-style: italic;
 }
