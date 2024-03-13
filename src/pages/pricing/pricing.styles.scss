@@ -1,0 +1,19 @@
+.sectionContainer {
+  max-width: 100rem;
+  margin: auto;
+  padding: 2rem;
+
+  .sectionHeading {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+  }
+  .sectionContent {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+.feesContainer {
+  display: flex;
+}
