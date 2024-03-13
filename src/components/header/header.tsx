@@ -4,16 +4,19 @@ import { Link } from "react-router-dom";
 import "./header.scss";
 
 const links = [
-  { name: "testimonials", location: "testimonials" },
+  { id: 0, name: "testimonials", location: "testimonials" },
   {
+    id: 1,
     name: "About/FAQ",
     location: "aboutFAQ",
   },
   {
+    id: 2,
     name: "Pricing",
     location: "pricing",
   },
   {
+    id: 3,
     name: "Schedule",
     location: "schedule",
   },
@@ -34,7 +37,7 @@ const Header: React.FC = () => {
       <div className="headerSection2">
         {links.map((link) => {
           return (
-            <div className="linkContainer">
+            <div key={link.id} className="linkContainer">
               <Link to={`/${link.location}`} className="linkText">
                 {link.name}
               </Link>

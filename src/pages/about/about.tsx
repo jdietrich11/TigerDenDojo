@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Banner from "../../components/banner/banner";
 import Dropdown from "../../components/dropdown/dropdown";
@@ -57,12 +57,20 @@ const AboutFAQPage: React.FC = () => {
           </div>
         </div>
       </div>
+      <div className="gap"></div>
       <div className="FAQBanner">
         <div>FAQ</div>
       </div>
       <div>
         {FAQ.map((item) => {
-          return <Dropdown q={item.question} a={item.answer} />;
+          return (
+            <Dropdown
+              q={item.question}
+              a={item.answer}
+              key={item.id}
+              id={item.id}
+            />
+          );
         })}
       </div>
     </>

@@ -1,0 +1,103 @@
+@import "../../assets/styleVariables.scss";
+
+.dropdown {
+  max-width: 80rem;
+  margin: auto;
+  margin-bottom: 1.2rem;
+
+  .question,
+  .selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: 2rem;
+    gap: 0.5rem;
+    background-color: $primary-color;
+    border-radius: 8px;
+
+    &:hover {
+      background-color: black;
+      color: $primary-color;
+    }
+  }
+
+  .answer {
+    height: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+
+    .answerItem {
+      height: 0;
+    }
+    &-active {
+      opacity: 100;
+      background-color: black;
+      color: $primary-color;
+      padding: 2rem;
+      margin-top: 0.2rem;
+      border-radius: 8px;
+
+      transition: all 0.5s ease-in;
+
+      .answerItem {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .selected {
+    background-color: black;
+    color: $primary-color;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:nth-child(5) {
+    .answer-active {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+
+      .answerItem {
+        &:nth-child(1) {
+          color: white;
+        }
+        &:nth-child(2) {
+          color: yellow;
+        }
+        &:nth-child(3) {
+          color: yellow;
+        }
+        &:nth-child(4) {
+          color: gold;
+        }
+        &:nth-child(5) {
+          color: orange;
+        }
+        &:nth-child(6) {
+          color: green;
+        }
+        &:nth-child(7) {
+          color: blue;
+        }
+        &:nth-child(8) {
+          color: purple;
+        }
+        &:nth-child(9) {
+          color: red;
+        }
+        &:nth-child(10) {
+          color: brown;
+        }
+        &:nth-child(11) {
+          color: grey;
+        }
+      }
+    }
+  }
+}
