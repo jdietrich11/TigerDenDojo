@@ -1,21 +1,9 @@
 import React from "react";
 import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
-import ApiCalendar from "react-google-calendar-api";
 
 import Banner from "../../components/banner/banner";
 
 import "./schedules.styles.scss";
-
-// const config = {
-//   clientId: "",
-//   apiKey: "AIzaSyD-UVPBRzOnkBq133qsiky3KpLN1qOtl1Y",
-//   scope: "https://www.googleapis.com/auth/calendar",
-//   discoveryDocs: [
-//     "https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest",
-//   ],
-// };
-
-// const apiCalendar = new ApiCalendar(config);
 
 const SchedulePage: React.FC = () => {
   const position = { lat: 40.158408968849436, lng: -111.597738394804 };
@@ -63,6 +51,7 @@ const SchedulePage: React.FC = () => {
       </div>
       <div className="calendar">
         <iframe
+          title="TDDCalendar"
           className="calanderIframe"
           src="https://calendar.google.com/calendar/embed?src=tigerdendojo.karate%40gmail.com&ctz=mt"
         >

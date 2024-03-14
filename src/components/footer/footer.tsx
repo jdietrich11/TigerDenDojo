@@ -1,5 +1,5 @@
 import React from "react";
-import IcomoonReact, { iconList } from "icomoon-react";
+import IcomoonReact from "icomoon-react";
 
 import iconSet from "../../selection.json";
 
