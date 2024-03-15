@@ -24,8 +24,8 @@ const Footer: React.FC = () => {
             <IcomoonReact
               iconSet={iconSet}
               color="white"
-              size={40}
               icon="mail"
+              className="icon"
             />
           </a>
           <a
@@ -36,8 +36,8 @@ const Footer: React.FC = () => {
             <IcomoonReact
               iconSet={iconSet}
               color="white"
-              size={30}
               icon="instagram"
+              className="icon"
             />
           </a>
           <a
@@ -48,8 +48,8 @@ const Footer: React.FC = () => {
             <IcomoonReact
               iconSet={iconSet}
               color="white"
-              size={30}
               icon="facebook2"
+              className="icon"
             />
           </a>
         </div>

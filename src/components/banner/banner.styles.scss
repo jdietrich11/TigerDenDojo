@@ -1,16 +1,18 @@
 @import "../../assets/styleVariables.scss";
 
 .bannerContainer {
-  width: 100%;
-  // height: 45rem;
+  max-width: 100rem;
   padding: 7rem;
-  background-color: $primary-color;
+  background: url("../../assets/Logos/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 125%;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100rem;
   margin: auto;
   margin-bottom: 2rem;
+  overflow: hidden;
 
   .textContainer {
     text-align: center;
@@ -47,6 +49,34 @@
 
       li:nth-child(1) {
         list-style-type: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .bannerContainer {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .bannerContainer {
+    max-height: 30rem;
+    overflow: hidden;
+
+    .textContainer {
+      .title {
+        font-size: 2.5rem;
+      }
+      .subtitle {
+        font-size: 2rem;
+      }
+      .subtitle2Container {
+        .subtitle2 {
+          font-size: 1.8rem;
+        }
       }
     }
   }

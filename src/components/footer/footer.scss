@@ -59,6 +59,32 @@
       align-items: center;
       gap: 3rem;
       width: 20rem;
+
+      .icon {
+        height: 3.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .footerContainer {
+    max-width: 100vw;
+    .footerTopContainer {
+      width: 100%;
+    }
+    .footerBottomContainer {
+      width: 100%;
+
+      .footerBottomMiddleSection {
+        .icon {
+          height: 20px;
+        }
+      }
     }
   }
 }

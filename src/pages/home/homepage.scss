@@ -77,3 +77,16 @@
   max-width: 100rem;
   margin: auto;
 }
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+  .GalleryContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .GalleryContainer {
+    grid-template-columns: 1fr;
+  }
+}
