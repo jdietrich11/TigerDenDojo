@@ -2,8 +2,6 @@ import React, { useState } from "react";
 
 import "./dropdown.styles.scss";
 
-import SvgPose1 from "../../Icons/SVG/Pose1.js";
-
 interface DropdownProps {
   key: number;
   id: number;
