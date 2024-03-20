@@ -16,6 +16,17 @@
     background-color: $primary-color;
     border-radius: 8px;
 
+    .kickImg {
+      height: 5rem;
+      width: 8rem;
+      transform: scaleX(-1);
+      filter: invert(1);
+    }
+
+    .questionText {
+      margin-left: -2rem;
+    }
+
     &:hover {
       background-color: black;
       color: $primary-color;
@@ -50,6 +61,9 @@
   .selected {
     background-color: black;
     color: $primary-color;
+    .imgIndex {
+      filter: invert(1);
+    }
   }
 
   &:hover {
