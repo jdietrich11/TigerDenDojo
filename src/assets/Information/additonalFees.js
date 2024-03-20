@@ -1,7 +1,7 @@
 const AdditionalFees = [
   {
     id: 1,
-    name: "Belt test Fees.",
+    name: "Belt test Fees",
     description:
       "Belt Test Fees. From Yellow Stripe through Purple Belt, the Belt Test Fee is $45. From Red Belt through Gray Belt, it’s $60. For Black Belt, it’s $500. ",
   },

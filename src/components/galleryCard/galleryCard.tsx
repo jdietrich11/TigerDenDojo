@@ -10,7 +10,7 @@ interface GalleryProps {
 }
 
 const GalleryCard: React.FC<GalleryProps> = (props) => {
-  const { id, name, description, imgSrc } = props;
+  const { name, imgSrc } = props;
 
   return (
     <div className="GalleryCardContainer">

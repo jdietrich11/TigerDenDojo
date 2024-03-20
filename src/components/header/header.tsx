@@ -30,7 +30,11 @@ const Header: React.FC = () => {
       <div className="headerSection1">
         <div className="nameSection">
           <Link to="/" className="home">
-            Tiger Den Dojo
+            <img
+              src={require("../../assets/Logos/WideLogo.jpg")}
+              alt="tiger den dojo logo"
+              className="logo"
+            />
           </Link>
         </div>
       </div>

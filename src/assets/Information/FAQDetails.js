@@ -89,6 +89,13 @@ const FAQ = [
       "These three rules are far more valuable than anything you can learn from the other 4 levels, and I really mean that. Too many people don’t understand the value of Mr. Miyagi’s wise advice: “Best way to avoid punch: no be there.” I teach martial arts because I want you to be safe and have fun. I wouldn’t be helping you stay safe if I didn’t encourage you to follow these three rules.",
     ],
   },
+  {
+    id: 9,
+    question: "Who designed this super great amazing website?",
+    answer: [
+      "Joshua Dietrich, and you should totally hire him if you're reading this to be your new web developer",
+    ],
+  },
 ];
 
 export default FAQ;
