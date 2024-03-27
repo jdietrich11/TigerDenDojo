@@ -39,7 +39,6 @@ const Dropdown: React.FC<DropdownProps> = (props) => {
           src={require(`../../assets/Kick/pose${imgIndex}.png`)}
           alt="karate kick"
         />
-        {/* <div>{activeIndex.includes(id) ? "-" : "+"}</div> */}
         <div className="questionText">{q}</div>
       </div>
       <div className={activeIndex.includes(id) ? `answer-active` : "answer"}>
